@@ -1,44 +1,11 @@
-# LaraEventTickets: Laravel 5.4 based system for event organizers to manage and sell tickets.
+"Event Booking System"
 
-It is a demo project for demonstrating what can be generated with [QuickAdminPanel](https://quickadminpanel.com) tool.
-LaraEventTickets admin area is all generated with __QuickAdminPanel__, front-end is done with simple Bootstrap.
+is a web-based application built with PHP, Laravel, and a MySQL database. It is divided into two parts: the admin section and the consumer section. The primary goal of this Event Booking System is to make it simple for consumers to schedule a variety of activities such as a wedding, birthday, formal gatherings, concerts, or sporting events.
 
-There is Stripe integrated into the system for payments, don't forget to configure your __.env__ file by addind STRIPE_KEY and STRIPE_SECRET (see __.env.example__ file).
+Team Members: Elduayan, Mark Angelo Morante, Melner Santos, Josiah Kim BSIT-3B
 
-## Clickable live-demo
+To access go to URL and type localhost:8080
 
-[demo-eventtickets.quickadminpanel.com](http://demo-eventtickets.quickadminpanel.com)
+This is the default account to access as an admin:
 
-- __Email__: admin@admin.com
-- __Pass__: password
-
-![LaraEventTickets screenshot](https://quickadminpanel.com/assets/pages/demos/demo-eventtickets-01.png)
-
-![LaraEventTickets screenshot2](https://quickadminpanel.com/assets/pages/demos/demo-eventtickets-02.png)
-
-## How to use
-
-- Clone the repository with __git clone__
-- Copy __.env.example__ file to __.env__ and edit database credentials there
-- Run __composer install__
-- Run __php artisan key:generate__
-- Run __php artisan migrate --seed__ (it has some seeded data for your testing)
-- That's it: launch the main URL. You can also login at __/login__ with default credentials __admin@admin.com__ - __password__
-
-## License
-
-Basically, feel free to use and re-use any way you want.
-
-### Credits
-
-This project is created by [David Lun](https://github.com/mc0de/).
-
----
-
-## More from our LaravelDaily Team
-
-- Check out our adminpanel generator [QuickAdminPanel](https://quickadminpanel.com) 
-- Read our [Blog with Laravel Tutorials](https://laraveldaily.com)
-- FREE E-book: [50 Laravel Quick Tips (and counting)](https://laraveldaily.com/free-e-book-40-laravel-quick-tips-and-counting/)
-- Subscribe to our [YouTube channel Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
-- Enroll in our [Laravel Online Courses](https://laraveldaily.teachable.com/)
+Email: admin@admin.com Password: password
