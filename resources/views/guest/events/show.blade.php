@@ -181,8 +181,9 @@
                                 </form>
                             </div>
                             @else
-                            <form action="/action_page.php">
-                            
+                                
+                            <form action="/action.blade.php">
+                        
                                 <label for="capacity">No. of People Required in this Event:</label> 
                                 <input type="text" id="capacity" name="capacity" size="35" value="{[{ $event->quantity }} person/s only" readonly>
                                 <br><br>
@@ -202,7 +203,6 @@
                                 <p>Click the "Submit" button to reserve input to the server.</p>
                                 <br>
                                 <p>Also please contact the Event Manager of this event for more info.</p>
-
                             @endif
                         </div>
                     </div>
