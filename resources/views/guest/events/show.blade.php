@@ -181,7 +181,27 @@
                                 </form>
                             </div>
                             @else
-                                <div class="alert alert-warning">We're sorry, but there are no tickets available</div>
+                            <form action="/action_page.php">
+                                <label for="capacity">No. of People Required in this Event:</label> 
+                                <input type="text" id="capacity" name="capacity" size="35" value="{[{ $event->quantity }} person/s only" readonly>
+                                <br><br>
+                                <label for="price">Event Price costs:</label> <br>
+                                <input type="text" id="price" name="price" value="₱ {[{ $event->price }}" readonly>
+                                <br><br>
+                                <p>Would you like to reserve in this event:</p>
+                                <input type="radio" id="yes" name="option" value="yes">
+                                <label for="yes">Yes</label>
+                                <br>
+                                <input type="radio" id="no" name="option" value="no">
+                                <label for="no">No</label>
+                                <br><br>
+                                    <input type="submit" value="Submit"><br>
+
+                                 </form>
+                                <p>Click the "Submit" button to reserve input to the server.</p>
+                                <br>
+                                <p>Also please contact the Event Manager of this event for more info.</p>
+
                             @endif
                         </div>
                     </div>

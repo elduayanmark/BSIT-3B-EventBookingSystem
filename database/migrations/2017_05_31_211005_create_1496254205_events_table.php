@@ -19,7 +19,10 @@ class Create1496254205EventsTable extends Migration
                 $table->text('description')->nullable();
                 $table->datetime('start_time');
                 $table->text('venue');
-                
+                $table->integer('quantity_person');
+                $table->dobule('event_price', 15, 2);
+                $table->integer('no_reservation');
+
                 $table->timestamps();
                 $table->softDeletes();
 
