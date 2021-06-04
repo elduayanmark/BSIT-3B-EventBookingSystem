@@ -4,7 +4,7 @@ is a web-based application built with PHP, Laravel, and a MySQL database. It is 
 
 Team Members: Elduayan, Mark Angelo Morante, Melner Santos, Josiah Kim BSIT-3B
 
-To access go to URL and type localhost:8080
+To access go to URL and type localhost:8080 or type 127.0.0.1:8080
 
 This is the default account to access as an admin:
 
