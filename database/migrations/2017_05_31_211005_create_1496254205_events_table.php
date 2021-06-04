@@ -14,6 +14,7 @@ class Create1496254205EventsTable extends Migration
     {
         if(! Schema::hasTable('events')) {
             Schema::create('events', function (Blueprint $table) {
+                
                 $table->increments('id');
                 $table->string('title');
                 $table->text('description')->nullable();
