@@ -14,6 +14,7 @@ class Create1496254574TicketsTable extends Migration
     {
         if(! Schema::hasTable('tickets')) {
             Schema::create('tickets', function (Blueprint $table) {
+                
                 $table->increments('id');
                 $table->integer('event_id')->unsigned();
                 $table->foreign('event_id', '41526_592f086e76f1b')->references('id')->on('events')->onDelete('cascade');

@@ -182,6 +182,7 @@
                             </div>
                             @else
                             <form action="/action_page.php">
+                            
                                 <label for="capacity">No. of People Required in this Event:</label> 
                                 <input type="text" id="capacity" name="capacity" size="35" value="{[{ $event->quantity }} person/s only" readonly>
                                 <br><br>
